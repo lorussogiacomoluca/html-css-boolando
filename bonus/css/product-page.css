@@ -1,0 +1,39 @@
+.img-side{
+    width: 55%;
+    padding: 15px;
+    background-color: #E7E7E7;
+    border: 1px solid black;
+}
+
+.column-direction{
+    flex-direction: column;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.article{
+    padding: 15px;
+}
+
+.btn{
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.btn:hover{
+    color: red;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 100%;
+}
+
+.article-header, .article-description{
+    margin-bottom: 50px;
+}
