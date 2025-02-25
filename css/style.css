@@ -15,11 +15,60 @@
     border: 2px solid red;
 }
 
+.boblue{
+    border: 2px solid blue;
+}
+
+/* Paddings */
+.p-20{
+    padding: 20px;
+
+}
+
 /* Columns */
 .col-20{
-    max-width: 20%;
+    width: 20%;
 }
 
 .col-60{
-    max-width: 60%;
+    width: 60%;
+}
+
+/* Flexbox */
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/* Section HEADER */
+header .navbar{
+    background-color: #FF6900;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+header img{
+    width: 20%;
 }
