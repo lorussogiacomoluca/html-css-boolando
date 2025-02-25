@@ -80,8 +80,17 @@
     padding: 20px 0;
 }
 
+.pb-20{
+    padding-bottom: 20px;
+}
+
 .pt-120{
     padding-top: 120px;
+}
+
+/* Margins */
+.mb-150{
+    margin-bottom: 150px;
 }
 
 /* Z-Index */
@@ -233,4 +242,22 @@ header a:hover{
 
 .img-overlay:hover{
     opacity: 1;
+}
+
+/* Section FOOTER */
+footer ul{
+    list-style-type: none;
+}
+
+footer a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.icons-size{
+    font-size: 30px;
+}
+
+.site-name:hover, .footer-link li:hover, .footer-social-icons i:hover{
+    color: #FF6900
 }
