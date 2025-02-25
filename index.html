@@ -18,7 +18,7 @@
 </head>
 <body>
 <header>
-    <div class="navbar fixed w-100">
+    <div class="navbar fixed w-100 z-10">
         <div class="container d-flex align-center py-20">
             <div class="col-20">
                 <ul class="d-flex">
@@ -53,11 +53,12 @@
     </div>
 </header>
 <main>
-    <div class="container bored pt-70 d-flex space-between flex-wrap gap-15">
+    <div class="container bored pt-120 d-flex space-between flex-wrap gap-15 mb-150">
         <div class="col-30 boblue">
             <div class="card">
                 <div class="card-body relative">
-                    <img src="./img/1.webp" alt="">
+                    <img class="img-product" src="./img/1.webp" alt="">
+                    <img class="img-overlay absolute top-0 left-0 hidden hover-transition" src="./img/1b.webp" alt="">
                     <div class="labels d-flex gap-15 absolute bottom-50 text-white">
                         <div class="label-discount bg-red">-50%</div>
                         <div class="label-green bg-green">Sostenibilita'</div>

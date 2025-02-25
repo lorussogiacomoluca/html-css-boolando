@@ -63,6 +63,10 @@
     text-decoration: line-through;
 }
 
+.hover-transition{
+    transition: all 1s ease-out;
+}
+
 /* Paddings */
 .p-20{
     padding: 20px;
@@ -72,8 +76,14 @@
     padding: 20px 0;
 }
 
-.pt-70{
-    padding-top: 70px;
+.pt-120{
+    padding-top: 120px;
+}
+
+/* Z-Index */
+
+.z-10{
+    z-index: 10;
 }
 
 /* Position */
@@ -99,6 +109,14 @@
 
 .right-0{
     right: 0;
+}
+
+.top-0{
+    top: 0;
+}
+
+.left-0{
+    left: 0;
 }
 
 /* Columns */
@@ -151,6 +169,15 @@
     gap: 8px;
 }
 
+/* Display */
+.inline-block{
+    display: inline-block;
+}
+
+.hidden{
+    opacity: 0;
+}
+
 /* Section HEADER */
 header .navbar{
     background-color: #FF6900;
@@ -194,4 +221,8 @@ header a:hover{
 
 .label-discount, .label-green{
     padding: 5px 10px;
+}
+
+.img-overlay:hover{
+    opacity: 1;
 }
