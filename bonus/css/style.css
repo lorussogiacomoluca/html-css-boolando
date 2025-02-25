@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Funnel Display", serif;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/* Utility */
+.bored{
+    border: 2px solid red;
+}
+
+.boblue{
+    border: 2px solid blue;
+}
+
+.bg-red{
+    background-color: #FF0000;
+}
+
+.bg-green{
+    background-color: #008000;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.bg-black{
+    background-color: #1A1A1A;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text-red{
+    color: red;
+}
+
+.font-size-small{
+    font-size: 13px;
+}
+
+.font-size-big{
+    font-size: 17px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.font-weight-600{
+    font-weight: 600;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.hover-transition{
+    transition: all 1s ease-out;
+}
+
+/* Paddings */
+.p-20{
+    padding: 20px;
+}
+
+.py-20{
+    padding: 20px 0;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pt-120{
+    padding-top: 120px;
+}
+
+/* Margins */
+.mb-150{
+    margin-bottom: 150px;
+}
+
+/* Z-Index */
+
+.z-10{
+    z-index: 10;
+}
+
+/* Position */
+.fixed{
+    position: fixed;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.top-20{
+    top: 20px;
+}
+
+.bottom-50{
+    bottom: 50px;
+}
+
+.right-0{
+    right: 0;
+}
+
+.top-0{
+    top: 0;
+}
+
+.left-0{
+    left: 0;
+}
+
+/* Columns */
+.col-20{
+    width: 20%;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-80{
+    width: 80%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+/* Flexbox */
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.gap-8{
+    gap: 8px;
+}
+
+/* Display */
+.inline-block{
+    display: inline-block;
+}
+
+.hidden{
+    opacity: 0;
+}
+
+/* Section HEADER */
+header .navbar{
+    background-color: #FF6900;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 1s ease-out;
+}
+
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+header img{
+    width: 20%;
+}
+
+header .container{
+    width: 100%;
+}
+
+header a:hover{
+    color: #000;
+}
+
+/* Section MAIN */
+.card{
+    width: 100%;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.label-discount, .label-green{
+    padding: 5px 10px;
+}
+
+.img-overlay:hover{
+    opacity: 1;
+}
+
+/* Section FOOTER */
+footer ul{
+    list-style-type: none;
+}
+
+footer a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.icons-size{
+    font-size: 30px;
+}
+
+.site-name:hover, .footer-link li:hover, .footer-social-icons i:hover{
+    color: #FF6900
+}
+
+/* BONUS: Red heart icon appears on hover */
+main .fa-heart:hover{
+    color: red
+}
