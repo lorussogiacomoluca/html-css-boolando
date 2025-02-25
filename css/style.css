@@ -22,7 +22,11 @@
 /* Paddings */
 .p-20{
     padding: 20px;
+}
 
+/* Position */
+.fixed{
+    position: fixed;
 }
 
 /* Columns */
@@ -32,6 +36,10 @@
 
 .col-60{
     width: 60%;
+}
+
+.w-100{
+    width: 100%;
 }
 
 /* Flexbox */
@@ -71,4 +79,8 @@ header ul li{
 
 header img{
     width: 20%;
+}
+
+header .container{
+    width: 100%;
 }
